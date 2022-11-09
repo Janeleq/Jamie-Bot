@@ -1,2 +1,2 @@
 # 4OurMigrants
-A bot that specialise in employer laws and obiligations
+A bot that specialise in employer laws and obiligations utilising Dialogflow
