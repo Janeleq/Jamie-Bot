@@ -1,0 +1,65 @@
+{
+  "id": "8cd29777-25a9-4853-a87c-e30059eaff6f",
+  "parentId": "60d40abb-8dfc-4ca9-83bd-b4d017ee09b2",
+  "rootParentId": "60d40abb-8dfc-4ca9-83bd-b4d017ee09b2",
+  "name": "EO_unsafe_housing_conditions - yes",
+  "auto": true,
+  "contexts": [
+    "EO_unsafe_housing_conditions-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EO_unsafe_housing_conditions.EO_unsafe_housing_conditions-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://www.mom.gov.sg/-/media/mom/documents/foreign-manpower/dormwatch/dormwatch-1.png",
+          "title": "DormWatch",
+          "buttons": [
+            {
+              "postback": "https://play.google.com/store/apps/details?id\u003dsg.gov.mom.dormwatch\u0026hl\u003den_SG\u0026gl\u003dUS",
+              "text": "Click here to download"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Unsafe conditions include: \n1) Overcrowding\n2) Lack of proper sanitation facilities or ventilation\n3) Infestation with pests (e.g. rats, mosquitoes, cockroaches)\n4) Damaged or unrepaired facilities within your dormitory\n\nAs your accommodation falls under one of the poor or unsafe conditions, you can download DormWatch, a free mobile application that allows you to report any defects, broken facilities or equipment directly to the dormitory operator. MOM will also be kept informed on the progress of the issue and step in and inspect the premises if necessary.\n\nAlternatively, you can also report to MOM immediately by calling ☎️6438 5122, or approach MOM Services Centre at 📍1500 Bendemeer Road, Singapore 339946."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

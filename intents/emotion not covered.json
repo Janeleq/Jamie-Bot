@@ -1,0 +1,63 @@
+{
+  "id": "fa7a5f9d-3cd4-4c3b-86cd-6c8910b34cad",
+  "name": "emotion not covered",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "It must be tough feeling this way in a place far from home. Some tips I have: \n 1.Talk through your feelings with somebody or write it out\n 2.Meditate and deep breathing can help reduce overall levels of stress. \n 3.Get proper rest \n 4.Seek professional advice.\n\n Here are some hotlines that you can reach out to:\n☎️ HealthServe: +65 31295000 \n☎️Samaritans of Singapore (SOS)(24h)1800 221 4444\n ☎️ National CARE Hotline (8am to midnight)1800 202 6868"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "subtitle": "offers live support and online resources that anyone seeking to enhance their mental wellness can use.",
+          "title": "Alternatively, Safe Space™",
+          "buttons": [
+            {
+              "postback": "https://safespace.sg/",
+              "text": "Click here!"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

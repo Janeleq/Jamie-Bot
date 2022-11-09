@@ -1,0 +1,75 @@
+{
+  "id": "d4913efe-8c59-4e55-b372-83d462de59c9",
+  "parentId": "05ef1a01-5476-4db1-9d2f-296a82c91ac2",
+  "rootParentId": "05ef1a01-5476-4db1-9d2f-296a82c91ac2",
+  "name": "sad - fallback",
+  "contexts": [
+    "sad-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sad.sad-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "It is not always easy to discuss, but I am glad you were able to share with me today. Here are a few hotline that I feel you will benefit from, do give one of them a call 📞 and tell them more. \n ☎️ HealthServe: +65 31295000 \n☎️ Samaritans of Singapore(SOS)(24h)1800 221 4444"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "subtitle": "offers live support and online resources that anyone seeking to enhance their mental wellness can use.",
+          "title": "Safe Space™",
+          "buttons": [
+            {
+              "postback": "https://safespace.sg/",
+              "text": "Click to find out more 🔎"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/bartimus-bear-flower-feel-better-600w-410473006.jpg",
+          "title": "Say \u0027Hi\u0027 again any time u need help 🥰, hope you feel better soon!",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "aa83632d-2fe0-4204-970a-b9d9c955c7ab",
+  "parentId": "646315bb-3c8d-49ab-b1e7-100975146c52",
+  "rootParentId": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "name": "Introduction/Greetings - greet person - positive - no",
+  "auto": true,
+  "contexts": [
+    "IntroductionGreetings-greetperson-positive-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntroductionGreetings.IntroductionGreetings-custom.IntroductionGreetings-greetperson-custom.IntroductionGreetings-greetperson-positive-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Sure. Do let me know if you need any further assistance and I will I can best help you 😀! Say \u0027Hi\u0027 again any time u need help 🥰, have a great day"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

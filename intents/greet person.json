@@ -1,0 +1,89 @@
+{
+  "id": "7066bd88-60c5-419f-b5f2-3c5df2eb85fd",
+  "parentId": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "rootParentId": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "name": "greet person",
+  "auto": true,
+  "contexts": [
+    "happy",
+    "IntroductionGreetings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntroductionGreetings.IntroductionGreetings-custom",
+      "affectedContexts": [
+        {
+          "name": "IntroductionGreetings-greetperson-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "351b2127-f03f-447c-b545-1adf3f0ac62e",
+          "name": "name",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Nice meeting you $name, how are you feeling today?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "positive",
+                      "text": "👍"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "negative",
+                      "text": "👎"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "b14c636f-2ccc-457c-99c7-c72ad31611e7",
+  "name": "EO_communal_hygiene",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some tips to prevent unsafe housing conditions:\n1) Keep where you live clean and tidy, so that you can remain healthy and not fall sick.\n2) Keep your bed clean to prevent bed bugs.\n3) Keep your living environment clean to prevent pests such as cockroaches and rats.\n4) Remove stagnant water to prevent mosquito-breeding.\n\nIf your accommodation is in poor or unsafe conditions, you can download DormWatch, a free mobile application that allows you to report any defects, broken facilities or equipment directly to the dormitory operator. MOM will also be kept informed on the progress of the issue and step in and inspect the premises if necessary.\n\nAlternatively, you can also report to MOM immediately by calling ☎️6438 5122, or approach MOM Services Centre at 📍1500 Bendemeer Road, Singapore 339946."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

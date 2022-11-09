@@ -1,0 +1,122 @@
+{
+  "id": "60d40abb-8dfc-4ca9-83bd-b4d017ee09b2",
+  "name": "EO_unsafe_housing_conditions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "EO_unsafe_housing_conditions-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "It\u0027s important to understand whether your current housing conditions is appropriate."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://dailynewshungary.com/wp-content/webpc-passthru.php?src\u003dhttps://dailynewshungary.com/wp-content/uploads/2020/11/bme-dormitory-crazy.jpg\u0026nocache\u003d1",
+          "subtitle": "You have some worn out or damaged furnitures in your living space",
+          "title": "Damaged or unrepaired facilities within your dormitory",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://www.tn.gov/content/tn/health/cedep/environmental/healthy-homes/hh/pests/jcr%3Acontent/content/tn_panel/content/tn_textandimage/image.img.jpg/1506704568251.jpg",
+          "subtitle": "You often see pests like cockroaches around your living space",
+          "title": "Infestation with pests (e.g. rats, mosquitoes, cockroaches)",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://img.stomp.com.sg/s3fs-public/styles/500_height/public/images/2016/06/kt2.jpg?itok\u003d3JJqBBUo",
+          "subtitle": "You are living with many other people in a tight and squeezy room",
+          "title": "Overcrowding",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://thesmartlocal.com/images/easyblog_articles/5475/b2ap3_thumbnail_migrant-worker-grass-cutting-drinking-water.jpg",
+          "subtitle": "You do not have proper access to clean water or relevant facilities",
+          "title": "Lack of proper sanitation facilities or ventilation",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "yes",
+                      "callback_data": "yes"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "no",
+                      "text": "no"
+                    }
+                  ]
+                ]
+              },
+              "text": "Are any of the housing conditions shown above what you are currently facing?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

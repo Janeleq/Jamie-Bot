@@ -1,0 +1,44 @@
+{
+  "id": "24343d9a-7252-41df-b5a7-0e870eaab5e5",
+  "parentId": "b9a0082b-a6e2-4016-9149-4877f192936b",
+  "rootParentId": "d5054f8c-588b-4c48-a74e-f245b025982d",
+  "name": "yes help -end",
+  "auto": true,
+  "contexts": [
+    "Homesick-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Homesick.Homesick-custom.Homesick-custom-yes",
+      "affectedContexts": [
+        {
+          "name": "yeshelp-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It is good that you are being open and honest with your feelings as it gives you opportunities to work through your feelings and find yourself the support you need. \n\nHere are some tips we have for you to deal with homesickness: \n1. Set aside time to call your family\n2. Develop a routine of your own\n3. Remember your family and friends will always be there for you. \n4. Talk to a professional - HealthServe +65 31295000 ☎️ helpline is open 24 hours.\n\nHope these tips will help you work through these feelings. Say \"Hi\" again any time you need help 🥰, hope you feel better soon!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

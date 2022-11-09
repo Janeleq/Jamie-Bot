@@ -1,0 +1,79 @@
+{
+  "id": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "name": "EO_salary_deductions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "employers_responsibilities-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "EO_salary_deductions-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Work Pass Renewal",
+                      "callback_data": "pass renew"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "repatriation",
+                      "text": "Repatriation"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "medical fees",
+                      "text": "Medical Insurance"
+                    }
+                  ]
+                ]
+              },
+              "text": "Your employer is not allowed to demand or receive money from you as a condition for employing you. He cannot make you pay or deduct money from your salary for the following costs:\n1) Work pass renewal\n2) Security bond\n3) Medical insurance\n4) Repatriation costs\n5) Compulsory training\n6) Medical fees\n7) Levy payment\nFor example, if your work pass is due to expire, your employer must pay to renew it. He cannot ask you to pay or deduct money from your salary for the renewal fees.\nIf your employer makes deductions from your salary, check with your employer what the deduction is for. If the deduction is for any of the costs listed above, report to MOM immediately by calling 6438 5122 ☎️, or approach MOM Services Centre at 1500 Bendemeer Road, Singapore 339946📍."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

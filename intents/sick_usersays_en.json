@@ -1,0 +1,41 @@
+[
+  {
+    "id": "f7126373-1b49-4de8-9d8b-a1d8ec8351b3",
+    "data": [
+      {
+        "text": "im sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e666714-e64c-4614-a404-db3795517bf1",
+    "data": [
+      {
+        "text": "I feel ill.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "baa4e518-13e0-46ed-bfe0-009aa8739604",
+    "data": [
+      {
+        "text": "I don\u0027t feel well.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

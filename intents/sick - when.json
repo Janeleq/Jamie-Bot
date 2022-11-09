@@ -1,0 +1,84 @@
+{
+  "id": "623b7e32-a78b-4278-999f-02bfb2eee3e3",
+  "parentId": "f2950b3a-c66f-4cd8-b16f-c331dfa483f5",
+  "rootParentId": "f2950b3a-c66f-4cd8-b16f-c331dfa483f5",
+  "name": "sick - when",
+  "auto": true,
+  "contexts": [
+    "sick-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sick.sick-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e245aa03-3fb9-48dc-a4c5-4e9a26fa0fa0",
+          "name": "date-time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Your line of work is physically strenuous, remember to take breaks and drink lots of water! \nDownload the FWMOMCare App below and here are some hotlines you can call:\n☎️ HealthServe: +65 31295000 \n☎️ SAMWMC: +65 91378567"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "title": "Get FWMOMCare:",
+          "buttons": [
+            {
+              "postback": "https://www.mom.gov.sg/eservices/fwmomcare",
+              "text": "Click to find out more🔎"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://media.istockphoto.com/id/453518605/photo/get-well-soon-teddy-bear-with-flowers.jpg?s\u003d612x612\u0026w\u003d0\u0026k\u003d20\u0026c\u003dfTZMMD7BskBf8io3WCl_AvlkhOM8xby1ragKWl5g7Nc\u003d",
+          "title": "Say \u0027Hi\u0027 again any time u need help 🥰, hope you feel better soon!",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

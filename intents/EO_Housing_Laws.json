@@ -1,0 +1,35 @@
+{
+  "id": "6f015b6c-0bf7-4f1a-b281-0e01ec116c68",
+  "name": "EO_Housing_Laws",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You may stay in private residential premises such as condominiums, shophouses and\nterrace houses. A maximum of 6 workers is allowed to stay in private residential premises. If\nthere are more than 6 workers living in the same accommodation as you, make arrangements with your employer to move out."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

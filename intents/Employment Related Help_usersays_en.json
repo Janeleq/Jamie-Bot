@@ -1,0 +1,54 @@
+[
+  {
+    "id": "7b58bfef-c98c-429c-99ed-e5d2834cd46d",
+    "data": [
+      {
+        "text": "employment related help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7580930-eb0c-4743-a633-baf8bcd0e995",
+    "data": [
+      {
+        "text": "assist employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06365997-ac9a-4f6d-9027-1d38160654dd",
+    "data": [
+      {
+        "text": "employment assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea0a1d78-6ad3-449a-807e-3d5f28769e05",
+    "data": [
+      {
+        "text": "help with employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "9051fdb1-95ac-41aa-b0da-391bb3507757",
+  "name": "EL_help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you require specific assistance regarding employment related issues, you may seek help\nfrom the Ministry of Manpower (MOM) by calling ☎️+65 6438 5122, OR approach\nMOM Services Centre at 📍1500 Bendemeer Road Singapore 339946. \nYou can also approach FAST team officers in your dormitory for help.\n\nAlternatively, you may seek help from the Migrant Workers Centre (MWC) by calling ☎️+65 6536 2692.\nYou can also approach the MWC at 📍579 Serangoon Road Singapore 218193, \nOR 📍51 Soon Lee Road Singapore 628088."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

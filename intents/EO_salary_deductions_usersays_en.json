@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1e05a535-a859-414d-9d19-7d2cf5cfb281",
+    "data": [
+      {
+        "text": "What are my employer\u0027s responsibilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0920562e-399a-4215-a7e4-27a32242ceab",
+    "data": [
+      {
+        "text": "Possible salary deductions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cd6fa2e-7105-417c-ac9f-e1d2b5412d4c",
+    "data": [
+      {
+        "text": "Can my salary be deducted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2f906fcd-af4d-45ff-9372-a68a48139c96",
+    "data": [
+      {
+        "text": "Salary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "526e2c70-6aa9-4a2e-b672-f39a201cc8dc",
+    "data": [
+      {
+        "text": "What should I not be paying for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "id": "792328f4-1557-43b3-95a8-88bac2c0a9aa",
+  "name": "EL_work_permit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A work permit allows you to work in Singapore legally. If you are a foreigner looking to work in Singapore, you will require a work permit.\n\nYou may check the validity of your work permit through:\n(1) SGWorkpass mobile app:\n1. Download the SGWorkPass free mobile app on Google Play or the\nApp Store.\n2. Enter the app and scan the QRcode on your work permit card to verify its validity instantly. (If your work permit card does not have a QR code, you can scan the unique Card Serial Number printed on the front of your card instead.)\n\n(2) MOM Website:\n1. Click \u0027check work pass and application status\u0027.\n2. Select your preferred language.\n3. Enter your date of birth, provide your foreign identification number, and click submit."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "title": "Check Validity of Work Permit",
+          "buttons": [
+            {
+              "postback": "https://www.mom.gov.sg/check-wp",
+              "text": "Click Here"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

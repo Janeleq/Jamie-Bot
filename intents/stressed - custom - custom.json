@@ -1,0 +1,39 @@
+{
+  "id": "7879328b-6bb6-4036-b1f3-825852d02eed",
+  "parentId": "6d3d3d70-9850-44e8-af8d-c3d5ad403473",
+  "rootParentId": "05ef1a01-5476-4db1-9d2f-296a82c91ac2",
+  "name": "stressed - custom - custom",
+  "auto": true,
+  "contexts": [
+    "stressed-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "stressed.stressed-custom.stressed-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It is not always easy to discuss, but I am glad you were able to share more with me today. Here are a couple of __ that discuss how to cope with stress. If those aren\u0027t helpful or if you feel you want more help, here is a hotline you can speak directly to who can help you better cope with your feelings."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

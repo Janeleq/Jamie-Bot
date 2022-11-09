@@ -1,0 +1,91 @@
+{
+  "id": "e2ad9dfa-b0e9-48fa-9a50-3c621cd62463",
+  "parentId": "5739515a-9eb6-4838-81ab-c8a0ab9ce810",
+  "rootParentId": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "name": "Introduction/Greetings - greet person - negative - no",
+  "auto": true,
+  "contexts": [
+    "IntroductionGreetings-greetperson-negative-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntroductionGreetings.IntroductionGreetings-custom.IntroductionGreetings-greetperson-custom.IntroductionGreetings-greetperson-negative-no",
+      "affectedContexts": [
+        {
+          "name": "IntroductionGreetings-greetperson-negative-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Don\u0027t worry, I am here to listen and help in any way I can! Would you like to tell me what could have made you feel this way?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "sick",
+                      "text": "I feel sick 🤒🤧😷"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "homesick",
+                      "text": "I miss home 😭🏠"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "I am sad 😔☹️😢",
+                      "callback_data": "sad"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "tired",
+                      "text": "I am tired 😪😞😥"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Others",
+                      "callback_data": "none of the above"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

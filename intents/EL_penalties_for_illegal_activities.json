@@ -1,0 +1,35 @@
+{
+  "id": "27e0174d-3b1b-44e3-a3c4-738b74865b79",
+  "name": "EL_penalties_for_illegal_activities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you breach any of the work permit conditions, you may be fined/jailed, your work permit will be cancelled and you will not be allowed to work in Singapore in the future."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "3afeab40-1e7b-4e4a-9b20-74de351bfa02",
+  "name": "Housing Related Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Select from the options below to find out more:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQ74tDtkHaadji6Ym0MhxL7mFdOzEgjXPLNtvB9l8BvX-aiJf2P8sey0qTU0Bj0HeNJZjs\u0026usqp\u003dCAU",
+          "title": "Housing laws",
+          "buttons": [
+            {
+              "postback": "housing laws",
+              "text": "Click to find out more 🔍"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://onecms-res.cloudinary.com/image/upload/s--_0MwBTFn--/f_auto%2Cq_auto/c_fill%2Cg_auto%2Ch_622%2Cw_830/v1/tdy-migration/21253751.JPG?itok\u003dvmqVfcR4",
+          "title": "Unsafe Housing conditions",
+          "buttons": [
+            {
+              "postback": "unsafe housing conditions",
+              "text": "Click to find out more 🔍"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://hrmcdn-13a1c.kxcdn.com/images/hr-sg/content-images/priya-oct-2020-dormitories-mom-123rf.jpg",
+          "title": "Communal Hygiene",
+          "buttons": [
+            {
+              "postback": "communal hygiene",
+              "text": "Click to find out more 🔍"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

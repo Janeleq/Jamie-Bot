@@ -1,0 +1,28 @@
+[
+  {
+    "id": "d73e3f75-e7d4-4eb5-bff2-02a03f1705a1",
+    "data": [
+      {
+        "text": "medical fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb8f3642-444d-4f93-a805-4343b77779a2",
+    "data": [
+      {
+        "text": "medical insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

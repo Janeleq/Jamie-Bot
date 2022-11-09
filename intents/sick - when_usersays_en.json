@@ -1,0 +1,111 @@
+[
+  {
+    "id": "48b21245-3342-46ad-b968-1ade89ecc1ab",
+    "data": [
+      {
+        "text": "afternoon",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2072fdd3-f2f6-4e50-af41-2c61027e62e1",
+    "data": [
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77dd5d90-d130-4df0-86ca-840b0efe2bb4",
+    "data": [
+      {
+        "text": "recent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "857dc526-2478-4145-bc7b-43279406095c",
+    "data": [
+      {
+        "text": "recently",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6faffbe0-d78c-43fc-b608-db7981679cd8",
+    "data": [
+      {
+        "text": "just now",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c719c893-d147-4d65-90a6-684ac0650b71",
+    "data": [
+      {
+        "text": "Yesterday",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53ff805b-0f86-4d3f-b74a-131da17314e5",
+    "data": [
+      {
+        "text": "Since ",
+        "userDefined": false
+      },
+      {
+        "text": "morning",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

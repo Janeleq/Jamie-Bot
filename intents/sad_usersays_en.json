@@ -1,0 +1,93 @@
+[
+  {
+    "id": "bffcbee4-a126-4aff-a56e-095beb7a98dc",
+    "data": [
+      {
+        "text": "sad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "578b37ef-d130-4025-923a-a558899ac034",
+    "data": [
+      {
+        "text": "too much to handle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c2511ef-695f-41a8-b3fe-7b90ecc9d828",
+    "data": [
+      {
+        "text": "brain is overloaded",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23c62cf7-1b2d-4675-a413-3f8387470e8c",
+    "data": [
+      {
+        "text": "too much on my head",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d9fb940-c021-495f-ae8e-a86174b0f204",
+    "data": [
+      {
+        "text": "i have too much stuff on my mind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8414b16e-3051-4859-b33a-52643914c483",
+    "data": [
+      {
+        "text": "i am feeling overwhelmed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d16e86ac-7ee1-40a1-bb93-1584cae86a59",
+    "data": [
+      {
+        "text": "i am stressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

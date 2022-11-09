@@ -1,0 +1,76 @@
+{
+  "id": "9532f6a9-f7cf-41f7-b839-ec426bbb5bfc",
+  "name": "Employment Law Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "work permit help",
+                      "text": "Work Permit"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "el employment related help",
+                      "text": "Employment Related"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "marriage and pregnancy",
+                      "text": "Marriage and Pregnancy💍🤰"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "penalties for illegal activities",
+                      "text": "Penalties for Illegal Activities"
+                    }
+                  ]
+                ]
+              },
+              "text": "As a work permit holder, you should comply with the conditions and laws of your work permit. You may ask more relating to the following subjects:"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

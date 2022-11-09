@@ -1,0 +1,78 @@
+{
+  "id": "f6269296-e686-4abd-bb65-53ba21609a07",
+  "name": "Employment Related Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do select the relevant option below and share more so I can see how to help you!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://www.owenhodge.com.au/wp-content/uploads/2016/08/download-1024x683.jpg",
+          "subtitle": "anything to do regarding your work permit, agency, etc.",
+          "title": "Employment Obligations",
+          "buttons": [
+            {
+              "postback": "employment obligations help",
+              "text": "✅"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://employsure.com.au/wp-content/uploads/2020/06/200623-employment-contracts.png",
+          "subtitle": "anything to do regarding your salary, housing etc.",
+          "title": "Employment Laws",
+          "buttons": [
+            {
+              "postback": "employment laws help",
+              "text": "✅"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

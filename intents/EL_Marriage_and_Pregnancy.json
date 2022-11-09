@@ -1,0 +1,35 @@
+{
+  "id": "52b690ae-0a40-4dd6-b9c5-c579d058eeb2",
+  "name": "EL_Marriage_and_Pregnancy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are some things to note while you stay in Singapore:\n\n1) You need the approval of the Controller of Work Passes to marry a Singapore citizen or permanent resident (either in Singapore or outside of Singapore). This also applies after a work permit becomes invalid.\n\n2) You must also not become pregnant or give birth in Singapore unless you are married to a Singapore citizen or permanent resident and you have the approval of the Controller of Work Passes. This also applies after a work permit becomes invalid."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

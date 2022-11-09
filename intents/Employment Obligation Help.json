@@ -1,0 +1,91 @@
+{
+  "id": "bd4e7b19-1998-44ec-be9c-d56456aebec0",
+  "name": "Employment Obligation Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You and your employer both have\nresponsibilities to fulfil during the term of your\nemployment. You may ask more relating to the\nfollowing subjects:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQNL9REkITFukjDDo7JRhkKdcA6HK8ipYa9og\u0026usqp\u003dCAU",
+          "title": "Salary deductions 💰",
+          "buttons": [
+            {
+              "postback": "salary deduction",
+              "text": "Click to find out more 🔍"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://static.businesstimes.com.sg/s3fs-public/image/2021/09/17/Dormitories.jpg",
+          "title": "Housing Related🏠",
+          "buttons": [
+            {
+              "postback": "housing related help",
+              "text": "Click to find out more 🔍"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "imageUrl": "https://cdn0.iconfinder.com/data/icons/real-estate-bold-1-1/256/Facilities-512.png",
+          "title": "Updating of house address ✍️🏘",
+          "buttons": [
+            {
+              "postback": "Updating of house address",
+              "text": "Click to find out more 🔍"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

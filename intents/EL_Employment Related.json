@@ -1,0 +1,70 @@
+{
+  "id": "6473cf66-0719-4df6-848f-be29073b5858",
+  "name": "EL_Employment Related",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "general EL",
+                      "text": "General Laws"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Employment Agency",
+                      "callback_data": "employment agency"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Help!",
+                      "callback_data": "EL help"
+                    }
+                  ]
+                ]
+              },
+              "text": "Click to ask more relating to the following subjects:"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

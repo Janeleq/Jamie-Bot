@@ -1,0 +1,39 @@
+{
+  "id": "0b0c7d0e-2b7b-499b-a1ba-2068fb9992f9",
+  "parentId": "60d40abb-8dfc-4ca9-83bd-b4d017ee09b2",
+  "rootParentId": "60d40abb-8dfc-4ca9-83bd-b4d017ee09b2",
+  "name": "EO_unsafe_housing_conditions - no",
+  "auto": true,
+  "contexts": [
+    "EO_unsafe_housing_conditions-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EO_unsafe_housing_conditions.EO_unsafe_housing_conditions-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Glad to hear that you are living in a safe environment! Here are some tips to prevent unsafe housing conditions:\n1) Keep where you live clean and tidy, so that you can remain healthy and not fall sick.\n2) Keep your bed clean to prevent bed bugs.\n3) Keep your living environment clean to prevent pests such as cockroaches and rats.\n4) Remove stagnant water to prevent mosquito-breeding.\n\nIf your accommodation is in poor or unsafe conditions, you can download\nDormWatch, a free mobile application that allows you to report any defects, broken\nfacilities or equipment directly to the dormitory operator. MOM will also be kept\ninformed on the progress of the issue and step in and inspect the premises if\nnecessary.\n\nAlternatively, you can also report to MOM immediately by calling ☎️6438 5122, or\napproach MOM Services Centre at 📍1500 Bendemeer Road, Singapore 339946."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "3cff39be-5c96-4bab-8e55-ba1a1ed11bea",
+  "name": "EL_employment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are the employment laws you should abide by:\n1) You must work only in the occupation and for the employer specified on your work permit card - you are not allowed to work in another occupation even if instructed by your employer. If you are asked to work in a different job or for a different employer, you should report to MOM immediately by calling ☎️6438 5122, or approach MOM Services Centre at 📍1500 Bendemeer Road, Singapore 339946. \n\n2) It is also illegal to take part in any other business or start your own business to earn extra money. \n\n3) You my not act as an unlicensed employment agent. For committing any of the offences mentioned below:\n- Collecting money or benefits from family or friends for the purpose of helping them find jobs\n- Collecting any personal document or resume / CV from any job applicant for the purpose of helping them find jobs\n-Submitting work pass applications on behalf of any employer or job applicant\n-Assisting to place any jobseeker with an employer.\n\nThe penalty is a maximum fine of $80,000 and/or imprisonment for up to 2 years. Your work permit will be revoked, and you will be sent home and not be allowed to work in Singapore. \n\n4) You must carry your original work permit card at all times and produce it for inspection by any public officer."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "e8b7e297-9ca0-4684-be61-4725edfed20c",
+    "data": [
+      {
+        "text": "I am homesick.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa53ed98-df1f-454b-beec-7cd303473806",
+    "data": [
+      {
+        "text": "I miss my family.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02a88461-edbc-4a98-bf3b-62ed5ce6c149",
+    "data": [
+      {
+        "text": "I miss home.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

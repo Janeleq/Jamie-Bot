@@ -1,0 +1,39 @@
+{
+  "id": "32b021ad-9fe4-4a6f-9eaf-e390dcbeaf10",
+  "parentId": "e2ad9dfa-b0e9-48fa-9a50-3c621cd62463",
+  "rootParentId": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "name": "Introduction/Greetings - greet person - negative - no - custom",
+  "auto": true,
+  "contexts": [
+    "IntroductionGreetings-greetperson-negative-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntroductionGreetings.IntroductionGreetings-custom.IntroductionGreetings-greetperson-custom.IntroductionGreetings-greetperson-negative-no.IntroductionGreetings-greetperson-negative-no-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are a few hotline that I feel you will benefit from, do give them a call and tell them more!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

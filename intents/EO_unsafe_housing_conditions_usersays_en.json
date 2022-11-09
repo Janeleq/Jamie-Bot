@@ -1,0 +1,327 @@
+[
+  {
+    "id": "47bf040f-95e2-4dfb-8abb-7da76f691602",
+    "data": [
+      {
+        "text": "dormitory conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d04b748-ce01-43a9-9e7b-40cb943b06a0",
+    "data": [
+      {
+        "text": "dorm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "197d73ad-f11e-4cf7-94d6-3f819aa4e878",
+    "data": [
+      {
+        "text": "dormitory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eaf5a6f1-a689-4439-8662-6cfa4cb6b84f",
+    "data": [
+      {
+        "text": "housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e18c7f34-0445-4082-87a4-a39714a6c008",
+    "data": [
+      {
+        "text": "house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69a2cf72-eb4c-4bf2-8976-3cccbaaa9848",
+    "data": [
+      {
+        "text": "housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2027c940-10f1-46ce-abd2-d7ab05ff588e",
+    "data": [
+      {
+        "text": "dormwatch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6593b983-fb31-4501-ada0-7fea895d9b34",
+    "data": [
+      {
+        "text": "How to report my housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d8c3c10-68d4-4e8d-a4bd-0469651a98ae",
+    "data": [
+      {
+        "text": "What to do if housing conditions not of standard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37a12f8a-cd0c-43f2-88d0-7883512951e1",
+    "data": [
+      {
+        "text": "What should I do if my residence has housing issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddeb2518-a402-4cc0-b60c-9158aa8b03fe",
+    "data": [
+      {
+        "text": "bad house conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5384ffd6-68f6-406c-a5bf-0a2292d431bd",
+    "data": [
+      {
+        "text": "bad conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d9248aa-520c-4dff-8753-f8c6435c62ad",
+    "data": [
+      {
+        "text": "How do I report any housing issues in my dormitory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08cabc5a-206a-49eb-9fd9-4b533dd34db3",
+    "data": [
+      {
+        "text": "How to use DormWatch app",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a94edcb-3905-4f28-a94d-386502fbc973",
+    "data": [
+      {
+        "text": "What is DormWatch for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8123c551-539b-4720-9e90-cc19537408bd",
+    "data": [
+      {
+        "text": "Who do I report housing conditions to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b7f1b65-bcae-4c7b-ae59-ec2093a94c67",
+    "data": [
+      {
+        "text": "Is DormWatch free",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "73e49ea1-a8c9-495f-85bd-b81a2ac6c943",
+    "data": [
+      {
+        "text": "I need help with DormWatch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec313109-c464-4985-80cf-1ebaffe2473c",
+    "data": [
+      {
+        "text": "What is Dormwatch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93120059-f40a-4324-8505-da40896af03c",
+    "data": [
+      {
+        "text": "unsafe housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27627d3f-9bd5-421e-bbfd-63b104ed32a3",
+    "data": [
+      {
+        "text": "Examples of unsafe housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d100e5a1-6b6e-4589-8338-5ee2ca3d1595",
+    "data": [
+      {
+        "text": "Legal conditions for housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "edac3bf6-09cb-4022-bfd7-ccbc7a9c472b",
+    "data": [
+      {
+        "text": "What are standard conditions for housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f695274d-1c20-44c0-a90c-952296fab1a5",
+    "data": [
+      {
+        "text": "Acceptable housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2b2efd2-80ec-40bc-884e-e423294d09f0",
+    "data": [
+      {
+        "text": "What conditions in the house are accepted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

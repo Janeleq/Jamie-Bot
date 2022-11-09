@@ -1,0 +1,39 @@
+{
+  "id": "5eb5731f-9524-46b3-be54-47c21fab121e",
+  "parentId": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "rootParentId": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "name": "EO_salary_deductions - repatriation",
+  "auto": true,
+  "contexts": [
+    "employers_responsibilities-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "employers_responsibilities.employers_responsibilities-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Repatriation costs are the costs of sending you back to your home country."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

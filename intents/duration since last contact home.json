@@ -1,0 +1,120 @@
+{
+  "id": "b9a0082b-a6e2-4016-9149-4877f192936b",
+  "parentId": "d5054f8c-588b-4c48-a74e-f245b025982d",
+  "rootParentId": "d5054f8c-588b-4c48-a74e-f245b025982d",
+  "name": "duration since last contact home",
+  "auto": true,
+  "contexts": [
+    "Homesick-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Homesick.Homesick-custom",
+      "affectedContexts": [
+        {
+          "name": "Homesick-custom-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "durationsincelastcontacthome-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "00d56857-b2c2-4fbd-934c-3e86d8b85dcf",
+          "name": "duration",
+          "required": false,
+          "dataType": "@sys.duration",
+          "value": "$duration",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c981d9e5-3f19-4bfe-81c2-31895a2f47b1",
+          "name": "date-time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d2bcf938-83a9-491c-b678-dbbcd5eba2e6",
+          "name": "time-period",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "value": "$time-period",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Wow, it has been a while. Being in an environment away from family is tough and it takes time to adjust and learn how to cope in such an environment. Would you like me to introduce you to some ways you can deal with these feelings of homesickness?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "yes",
+                      "callback_data": "homesick tips"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "no_homesick_tips",
+                      "text": "no"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

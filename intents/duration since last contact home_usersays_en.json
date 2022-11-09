@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a82dfdb4-42a3-46f0-a7d8-f6e18c4df9f1",
+    "data": [
+      {
+        "text": "this morning",
+        "meta": "@sys.time-period",
+        "alias": "time-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cb6b698-1416-4642-9041-951e2d0482e6",
+    "data": [
+      {
+        "text": "yesterday",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78587232-d2c5-4528-809e-18ff24b474f6",
+    "data": [
+      {
+        "text": "a day",
+        "meta": "@sys.duration",
+        "alias": "duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b56896c7-f5c5-4cf7-9358-832103a4aa52",
+    "data": [
+      {
+        "text": "a week",
+        "meta": "@sys.duration",
+        "alias": "duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

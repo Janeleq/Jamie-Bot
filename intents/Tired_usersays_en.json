@@ -1,0 +1,28 @@
+[
+  {
+    "id": "59ad060f-1bdb-4be6-953f-f42c6954bf85",
+    "data": [
+      {
+        "text": "tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "193d1d17-040a-4953-a457-f744c562cbb0",
+    "data": [
+      {
+        "text": "I am constantly feeling tired.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

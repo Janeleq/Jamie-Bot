@@ -1,0 +1,20 @@
+[
+  {
+    "value": "Happy",
+    "synonyms": [
+      "Happy"
+    ]
+  },
+  {
+    "value": "Sad",
+    "synonyms": [
+      "Sad"
+    ]
+  },
+  {
+    "value": "Frustrated",
+    "synonyms": [
+      "Frustrated"
+    ]
+  }
+]

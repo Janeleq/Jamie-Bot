@@ -1,0 +1,40 @@
+{
+  "id": "87ce9d19-e506-48bf-bb77-1f75ac75916c",
+  "parentId": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "rootParentId": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "name": "EO_salary_deductions - medical insurance",
+  "auto": true,
+  "contexts": [
+    "employers_responsibilities-followup",
+    "EO_salary_deductions-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EO_salary_deductions.EO_salary_deductions-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your employer should have purchased and maintained a minimum medical insurance coverage of at least $15,000 per year for you for non-work-related accidents or illnesses, inpatient hospitalisation, and day surgery.\n\nHowever, if the cost your medical treatment exceeds the coverage of the medical insurance, mutual agreement to co-pay part of the cost of treatment can only happen if:\n\n1) The amount to be paid by the you does not exceed 10% of your monthly salary.\n2) The period of co-payment does not exceed 6 months.\n3) The co-payment option is explicitly stated in the employment contract or collective agreement and has your full consent.\n\nIf the arrangement with your employer is to deduct from your salary, ensure that your employer has written in to MOM to seek permission before making the deduction."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

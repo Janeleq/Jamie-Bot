@@ -1,0 +1,73 @@
+{
+  "id": "5739515a-9eb6-4838-81ab-c8a0ab9ce810",
+  "parentId": "7066bd88-60c5-419f-b5f2-3c5df2eb85fd",
+  "rootParentId": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "name": "Introduction/Greetings - greet person - negative",
+  "auto": true,
+  "contexts": [
+    "IntroductionGreetings-greetperson-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IntroductionGreetings.IntroductionGreetings-custom.IntroductionGreetings-greetperson-custom",
+      "affectedContexts": [
+        {
+          "name": "IntroductionGreetings-greetperson-negative-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "yes",
+                      "callback_data": "employment related help"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "no",
+                      "text": "no"
+                    }
+                  ]
+                ]
+              },
+              "text": "Oh no 😔 We all have our down days.\nTell me more about it, is what you are feeling due to your work?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

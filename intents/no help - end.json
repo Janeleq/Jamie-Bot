@@ -1,0 +1,46 @@
+{
+  "id": "05d2dfde-cb93-4e19-833c-c63eb162b071",
+  "parentId": "b9a0082b-a6e2-4016-9149-4877f192936b",
+  "rootParentId": "d5054f8c-588b-4c48-a74e-f245b025982d",
+  "name": "no help - end",
+  "auto": true,
+  "contexts": [
+    "Homesick-custom-followup",
+    "durationsincelastcontacthome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Homesick.Homesick-custom.durationsincelastcontacthome-no",
+      "affectedContexts": [
+        {
+          "name": "nohelp-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Don\u0027t worry, thank you for sharing what you are feeling with me regardless! What you are experiencing is not fun but it is normal and I am sure they miss you too. I hope you try to find time to give them a call soon, I\u0027m sure they will appreciate it as well. \n\nIf you wish to speak to someone, ☎️ dial HealthServe at +65 31295000\n\n Say \u0027Hi\u0027 again any time u need help 🥰, hope you feel better soon!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

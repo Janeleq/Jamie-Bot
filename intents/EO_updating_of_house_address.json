@@ -1,0 +1,35 @@
+{
+  "id": "ec18f2e5-c6ea-4784-a1a3-e45fcad8d608",
+  "name": "EO_updating_of_house_address",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You must stay at the address indicated by your employer to MOM. If you look for your own accommodation or change your accommodation at any time, you must inform your employer of your latest residential address so that they can inform MOM. Your work pass will be revoked if you fail to do so."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "02871753-3058-4ae3-b17f-287149d80be9",
+  "name": "Tired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Your work is physically taxing and I am sure it is hard to deal with it, especially when you are alone. You have been doing great and I am sure you will continue to do so. Remember to have sufficient rest, water and food, it is important to take care of yourself!! \n Here are some hotlines you can dial \n ☎️HOME  +65 6341 5535 \n ☎️ HealthServe: +65 31295000"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "subtitle": "offers live support and online resources that anyone seeking to enhance their mental wellness can use.",
+          "title": "Alternatively, Safe Space™",
+          "buttons": [
+            {
+              "postback": "https://safespace.sg/",
+              "text": "Click Here!"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "0bb8d3ce-0265-4193-b50b-84dc11857386",
+  "name": "EL_employment_agency",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Always check that your employment agency is licensed with MOM: Ask to see the registration card of the employment agency personnel. Take note of the name and registration number stated on the card. Then, check your agent’s name in MOM’s Employment Agency directory to confirm that you are dealing with a licensed agency.\n\nIt is illegal to engage the services of any unlicensed employment agent. If you engage an unlicensed employment agent, you may not find employment and may lose the agency fees that you paid. Additionally, you will be fined up to $5,000 for each time you engaged an unlicensed employment agent. Therefore, if you are asked to engage in the services of an unlicensed employment agent, you should report to MOM immediately by calling ☎️6438 5122, or approach MOM Services Centre at 📍1500 Bendemeer Road, Singapore 339946."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "telegram",
+          "title": "MOM\u0027s Employment Agency Directory",
+          "buttons": [
+            {
+              "postback": "https://www.mom.gov.sg/eadirectory",
+              "text": "Click here to check!"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

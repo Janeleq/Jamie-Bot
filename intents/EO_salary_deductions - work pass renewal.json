@@ -1,0 +1,54 @@
+{
+  "id": "2db2b159-7e52-4624-889d-900a57299d75",
+  "parentId": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "rootParentId": "1511cb5f-e056-41b7-81b4-d94479335855",
+  "name": "EO_salary_deductions - work pass renewal",
+  "auto": true,
+  "contexts": [
+    "employers_responsibilities-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "employers_responsibilities.employers_responsibilities-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "subtitle": "Your employer should renew a Work Permit online 7 to 12 weeks before it expires. Before renewing, your employer also needs to complete certain steps, such as checking the quota and extending your security bond and medical insurance. For more details on how to renew your work pass, please refer to the following link:",
+          "title": "About Work Pass Renewal",
+          "buttons": [
+            {
+              "postback": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/renew-a-work-permit",
+              "text": "Click to find out more🔎"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

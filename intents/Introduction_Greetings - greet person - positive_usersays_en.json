@@ -1,0 +1,67 @@
+[
+  {
+    "id": "135b3c4e-290f-454e-959b-7460fee1fc0c",
+    "data": [
+      {
+        "text": "joy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1dd319dd-35e5-46e0-a566-7c0b7c4192f4",
+    "data": [
+      {
+        "text": "overjoyed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "40d0360f-f8ee-4463-9727-0c64c7b0c759",
+    "data": [
+      {
+        "text": "happy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1acb03d-fd1c-4734-a44c-a319b7457115",
+    "data": [
+      {
+        "text": "good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3be958d-29bf-4fc0-a233-c29102968289",
+    "data": [
+      {
+        "text": "positive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

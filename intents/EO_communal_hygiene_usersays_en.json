@@ -1,0 +1,145 @@
+[
+  {
+    "id": "a2827515-7ac6-4c7e-9ad8-af8338fa2726",
+    "data": [
+      {
+        "text": "Things to note in my residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b3b313d-f113-46b9-b168-692c2e136022",
+    "data": [
+      {
+        "text": "How should I behave in my residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "186a2aa3-eb58-476e-821e-82f2d355a25a",
+    "data": [
+      {
+        "text": "What do I need to look out for in my residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23a244e6-d89d-483e-b696-9ee63f28562f",
+    "data": [
+      {
+        "text": "Things to note in the dormitory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a961f30a-be7e-4a91-a3d9-2189876d8a3d",
+    "data": [
+      {
+        "text": "How should I behave in the dormitory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "215eb240-edeb-4a61-8a58-4a00c51464e4",
+    "data": [
+      {
+        "text": "What do I need to look out for in the dormitory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "add8f466-2f42-41b6-9755-9a5567345f3a",
+    "data": [
+      {
+        "text": "how to prevent unsafe housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97b6f2d1-5850-44bc-8928-b9b011a6cd0b",
+    "data": [
+      {
+        "text": "prevent unsafe housing conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86be93a8-5972-40a4-965e-2eb21b4b492a",
+    "data": [
+      {
+        "text": "What should I be aware of in my residence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b8372be-fa22-4830-a230-47242fa89374",
+    "data": [
+      {
+        "text": "What should I be aware of in the dormitory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d646955-306e-49ee-b572-4552bce91165",
+    "data": [
+      {
+        "text": "communal hygiene",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

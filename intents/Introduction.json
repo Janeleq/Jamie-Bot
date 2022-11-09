@@ -1,0 +1,80 @@
+{
+  "id": "a9affc37-4e7e-4cce-ae6b-475a65ae1133",
+  "name": "Introduction",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.emotions",
+      "affectedContexts": [
+        {
+          "name": "happy",
+          "lifespan": 5
+        },
+        {
+          "name": "IntroductionGreetings-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c562611c-f6ec-4181-9215-59636ae35bd2",
+          "name": "name",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://static.vecteezy.com/system/resources/previews/002/485/285/non_2x/isolated-avatar-woman-design-free-vector.jpg",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi there 😊, I\u0027m Jamie. How can I address you?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TELEGRAM_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
