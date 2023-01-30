@@ -8,7 +8,6 @@ Play with the chatbot here: https://t.me/gettwoknowbot
 ## Other Materials
 Link to employment law and obligation intents mindmap: 
 https://mm.tt/map/2461367911?t=QwC6xlQ8pB 
-
-<br/><br/>
+<br/>
 Link to mental health intents mindmap: 
 https://mm.tt/map/2461387385?t=3DiRZmrWl5 
